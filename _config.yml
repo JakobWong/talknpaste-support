@@ -3,18 +3,21 @@ description: Voice to clipboard in one click - Support & Documentation
 baseurl: "/talknpaste-support"
 url: "https://jakobwong.github.io"
 
-# Disable Jekyll themes - use custom layout
-# theme: jekyll-theme-minimal
+# Completely disable Jekyll themes
+theme: null
+remote_theme: null
 
 # GitHub Pages settings
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
+plugins: []
 
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
+
+# Force minimal processing
+incremental: false
+safe: true
+strict_front_matter: true
 
 # Author
 author:
@@ -26,11 +29,6 @@ github_username: jakobwong
 
 # SEO
 lang: en_US
-google_analytics: # Add your GA tracking ID if needed
-
-# Sass configuration
-sass:
-  style: compressed
 
 # Exclude files
 exclude:
@@ -38,4 +36,3 @@ exclude:
   - LICENSE
   - Gemfile
   - Gemfile.lock
-  - assets/css/style.scss

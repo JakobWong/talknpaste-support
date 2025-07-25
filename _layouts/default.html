@@ -12,20 +12,41 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <style>
-    /* Force override all possible dark mode styles */
-    *, *::before, *::after {
+    /* Aggressive light mode enforcement */
+    * {
+      color-scheme: light !important;
+      background-color: inherit !important;
+    }
+    
+    *::before, *::after {
       color-scheme: light !important;
     }
     
     html {
       color-scheme: light !important;
-      background: white !important;
+      background: #FFFFFF !important;
+      background-color: #FFFFFF !important;
     }
     
     body {
       color-scheme: light !important;
-      background: white !important;
+      background: #FFFFFF !important;
+      background-color: #FFFFFF !important;
       color: #111827 !important;
+    }
+    
+    /* Override any possible framework/theme styles */
+    .page-content,
+    .site-header,
+    .site-footer,
+    .wrapper,
+    main,
+    article,
+    section,
+    div {
+      background: #FFFFFF !important;
+      background-color: #FFFFFF !important;
+      color: inherit !important;
     }
 
     /* Reset and Base Styles */
