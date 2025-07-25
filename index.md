@@ -16,7 +16,7 @@ layout: default
       <li class="nav-item"><a href="#quick-start" class="nav-link">Quick Start</a></li>
       <li class="nav-item"><a href="#troubleshooting" class="nav-link">Troubleshooting</a></li>
       <li class="nav-item"><a href="#features" class="nav-link">Features</a></li>
-      <li class="nav-item"><a href="#privacy" class="nav-link">Privacy</a></li>
+      <li class="nav-item"><a href="privacy-policy.html" class="nav-link">Privacy Policy</a></li>
       <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
     </ul>
   </div>
@@ -207,9 +207,9 @@ layout: default
       </div>
     </div>
 
-    <section id="privacy" class="section">
-      <h2 class="section-title">Privacy Policy</h2>
-      <p class="section-description">TalknPaste is designed with your privacy as the top priority.</p>
+    <div class="requirements">
+      <h2 class="section-title">Privacy First</h2>
+      <p class="section-description">TalknPaste is designed with your privacy as the top priority. <strong>We don't collect, store, or transmit any of your personal data.</strong></p>
       
       <ul class="privacy-list">
         <li class="privacy-item">
@@ -222,14 +222,6 @@ layout: default
         </li>
         <li class="privacy-item">
           <span class="privacy-icon">✅</span>
-          <span>No account registration required</span>
-        </li>
-        <li class="privacy-item">
-          <span class="privacy-icon">✅</span>
-          <span>No usage tracking or analytics</span>
-        </li>
-        <li class="privacy-item">
-          <span class="privacy-icon">✅</span>
           <span>Your recordings are not stored</span>
         </li>
         <li class="privacy-item">
@@ -237,7 +229,13 @@ layout: default
           <span>Voice data is processed in real-time and discarded</span>
         </li>
       </ul>
-    </section>
+      
+      <div style="text-align: center; margin-top: 32px;">
+        <a href="privacy-policy.html" style="display: inline-flex; align-items: center; gap: 8px; padding: 12px 20px; background: #FFFFFF; border: 1px solid #E5E7EB; border-radius: 6px; text-decoration: none; color: #111827; font-size: 14px; font-weight: 500; transition: all 0.2s ease;">
+          📄 Read Full Privacy Policy
+        </a>
+      </div>
+    </div>
 
     <section class="section">
       <h2 class="section-title">Frequently Asked Questions</h2>
