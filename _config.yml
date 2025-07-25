@@ -3,21 +3,14 @@ description: Voice to clipboard in one click - Support & Documentation
 baseurl: "/talknpaste-support"
 url: "https://jakobwong.github.io"
 
-# Completely disable Jekyll themes
-theme: null
-remote_theme: null
-
-# GitHub Pages settings
-plugins: []
+# GitHub Pages settings - no theme
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Markdown settings
 markdown: kramdown
 highlighter: rouge
-
-# Force minimal processing
-incremental: false
-safe: true
-strict_front_matter: true
 
 # Author
 author:
