@@ -1,0 +1,44 @@
+title: TalknPaste Support
+description: Voice to clipboard in one click - Support & Documentation
+baseurl: ""
+url: "https://jakobwong.github.io"
+
+# GitHub Pages settings
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+
+# Author
+author:
+  name: TalknPaste Team
+  email: support@talknpaste.app
+
+# Social
+github_username: jakobwong
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: Support
+    url: /#troubleshooting
+  - title: Privacy
+    url: /#privacy-policy
+  - title: Contact
+    url: /#contact-support
+
+# SEO
+lang: en_US
+google_analytics: # Add your GA tracking ID if needed
+
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
