@@ -1,6 +1,6 @@
 title: TalknPaste Support
 description: Voice to clipboard in one click - Support & Documentation
-baseurl: ""
+baseurl: "/talknpaste-support"
 url: "https://jakobwong.github.io"
 
 # GitHub Pages settings
@@ -8,6 +8,7 @@ theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Markdown settings
 markdown: kramdown
@@ -20,17 +21,6 @@ author:
 
 # Social
 github_username: jakobwong
-
-# Navigation
-navigation:
-  - title: Home
-    url: /
-  - title: Support
-    url: /#troubleshooting
-  - title: Privacy
-    url: /#privacy-policy
-  - title: Contact
-    url: /#contact-support
 
 # SEO
 lang: en_US
